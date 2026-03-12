@@ -1,0 +1,1 @@
+[![Runpod](https://api.runpod.io/badge/Matti181/test_serverless_v2)](https://console.runpod.io/hub/Matti181/test_serverless_v2)
