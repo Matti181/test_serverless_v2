@@ -8,7 +8,7 @@ def load_model():
     )
 
 
-def handler(event):
+def sentiment_analysis_handler(event):
     global model
 
     if "model" not in globals():
@@ -24,4 +24,4 @@ def handler(event):
     return {"sentiment": result["label"], "score": float(result["score"])}
 
 
-runpod.serverless.start({"handler": handler})
+runpod.serverless.start({"handler": sentiment_analysis_handler})
